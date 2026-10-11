@@ -1,0 +1,261 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://personajes/jugador/protagonista_m_prueba.gd" id="1_s"]
+[ext_resource type="Texture2D" path="res://arte/personajes/protagonista_m_hoja_nueva.png" id="1_t"]
+[ext_resource type="Texture2D" path="res://arte/personajes/protagonista_m_poses_nueva.png" id="2_t"]
+
+[sub_resource type="AtlasTexture" id="A_0_0"]
+atlas = ExtResource("1_t")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_0_1"]
+atlas = ExtResource("1_t")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_0_2"]
+atlas = ExtResource("1_t")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_0_3"]
+atlas = ExtResource("1_t")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_0_4"]
+atlas = ExtResource("1_t")
+region = Rect2(1024, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_0_5"]
+atlas = ExtResource("1_t")
+region = Rect2(1280, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_0"]
+atlas = ExtResource("1_t")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_1"]
+atlas = ExtResource("1_t")
+region = Rect2(256, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_2"]
+atlas = ExtResource("1_t")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_3"]
+atlas = ExtResource("1_t")
+region = Rect2(768, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_4"]
+atlas = ExtResource("1_t")
+region = Rect2(1024, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_1_5"]
+atlas = ExtResource("1_t")
+region = Rect2(1280, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_0"]
+atlas = ExtResource("1_t")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_1"]
+atlas = ExtResource("1_t")
+region = Rect2(256, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_2"]
+atlas = ExtResource("1_t")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_3"]
+atlas = ExtResource("1_t")
+region = Rect2(768, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_4"]
+atlas = ExtResource("1_t")
+region = Rect2(1024, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_2_5"]
+atlas = ExtResource("1_t")
+region = Rect2(1280, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_0"]
+atlas = ExtResource("1_t")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_1"]
+atlas = ExtResource("1_t")
+region = Rect2(256, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_2"]
+atlas = ExtResource("1_t")
+region = Rect2(512, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_3"]
+atlas = ExtResource("1_t")
+region = Rect2(768, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_4"]
+atlas = ExtResource("1_t")
+region = Rect2(1024, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="A_3_5"]
+atlas = ExtResource("1_t")
+region = Rect2(1280, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="I_0"]
+atlas = ExtResource("2_t")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="I_1"]
+atlas = ExtResource("2_t")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="I_2"]
+atlas = ExtResource("2_t")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="I_3"]
+atlas = ExtResource("2_t")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SF"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("A_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_0_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_0_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_0_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_0_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_0_5")
+}],
+"loop": true,
+"name": &"abajo",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("A_1_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_1_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_1_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_1_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_1_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_1_5")
+}],
+"loop": true,
+"name": &"arriba",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("A_2_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_2_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_2_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_2_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_2_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_2_5")
+}],
+"loop": true,
+"name": &"izquierda",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("A_3_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_3_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_3_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_3_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_3_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("A_3_5")
+}],
+"loop": true,
+"name": &"derecha",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("I_0")
+}],
+"loop": true,
+"name": &"idle_abajo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("I_1")
+}],
+"loop": true,
+"name": &"idle_arriba",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("I_2")
+}],
+"loop": true,
+"name": &"idle_izquierda",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("I_3")
+}],
+"loop": true,
+"name": &"idle_derecha",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RS"]
+size = Vector2(70, 35)
+
+[node name="protagonista M prueba" type="CharacterBody2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SF")
+animation = &"abajo"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D"]
+position = Vector2(1, 105)
+shape = SubResource("RS")
+
+[node name="Camera2D" type="Camera2D" parent="."]
